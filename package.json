@@ -9,7 +9,7 @@
     "test:cinema": "cypress run --record --spec \"cypress/e2e/cinema.cy.js\" --group cinema --ci-build-id 2",
     "test:adminlogin": "cypress run --record --spec \"cypress/e2e/adminlogin.cy.js\" --group cinema --ci-build-id 2",
     "test:booking": "cypress run --record --spec \"cypress/e2e/booking.cy.js\" --group cinema --ci-build-id 2",
-    "test:parallel": "npm run test:cinema & npm run test:adminlogin & npm run test:booking"
+    "test:parallel": "set CYPRESS_RECORD_KEY=0fc46df8-89bc-49dd-a71f-afd11825c9b2 && npm run test:cinema & npm run test:adminlogin & npm run test:booking"
   },
   "author": "Nikita Bezmenov",
   "license": "ISC",
