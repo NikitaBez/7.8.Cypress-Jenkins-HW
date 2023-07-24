@@ -6,9 +6,9 @@
   "version": "1.0.0",
   "main": "cypress.config.js",
   "scripts": {
-    "test:cinema": "cypress run --record --spec \"cypress/e2e/cinema.cy.js\" --group cinema --ci-build-id 10",
-    "test:adminlogin": "cypress run --record --spec \"cypress/e2e/adminlogin.cy.js\" --group adminlogin --ci-build-id 10",
-    "test:booking": "cypress run --record --spec \"cypress/e2e/booking.cy.js\" --group booking --ci-build-id 10",
+    "test:cinema": "cypress run --record --spec \"cypress/e2e/cinema.cy.js\" --group cinema --ci-build-id 11",
+    "test:adminlogin": "cypress run --record --spec \"cypress/e2e/adminlogin.cy.js\" --group adminlogin --ci-build-id 11",
+    "test:booking": "cypress run --record --spec \"cypress/e2e/booking.cy.js\" --group booking --ci-build-id 11",
     "test:parallel": "npm run test:cinema & npm run test:adminlogin & npm run test:booking"
   },
   "author": "Nikita Bezmenov",
